@@ -1,2 +1,4 @@
 # POSH.TV
-PowerShell for Twitch.tv
+POSH.TV is a Windows PowerShell-based client for integration into Twitch.tv streams.
+
+MORE TO COME! :D
