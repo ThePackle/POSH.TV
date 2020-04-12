@@ -24,7 +24,7 @@ Most Twitch.tv bots utilize one or several languages, including Java, Python, C+
 - Change setup script to allow easy configuration changes (as opposed to restarting)
 
 # v0.6
-* Additions
+## Additions
 - invoke-POSHTVSRAPI was created with two different functions:
     1) Grab the basic information about a runner, games, and categories and coorelate IDs with real names
     2) Asks the user, on initial install, to select which games they want converted to !pb with a user-defined chat abbreviation
@@ -32,7 +32,7 @@ Most Twitch.tv bots utilize one or several languages, including Java, Python, C+
 - get-POSHTVSR - Searches local file for information on a specific run from a chat abbreviation
 - update-POSHTVSR - Allows the user to update their locally defined chat abbreviation list or receive the latest listing from Speedrun.com's API
 
-* Changes
+## Changes
 - Added #Requires for invoke-POSHTV (6.0+ required)
 - Added an incompatible version warning to the beginning of enable-POSHTV
 - Logging is now sent to $env:appdata\POSHTV\logs\, if $logs is $true
@@ -46,11 +46,9 @@ Most Twitch.tv bots utilize one or several languages, including Java, Python, C+
 - Updated add- and update-POSHTVCommand to receive separate parameters instead of them being combined
 - Removed excess $global:[variable] calls
 
-* Fixes
+## Fixes
 - Fixed an issue where uppercase commands wouldn't equal lowercase commands
 - Fixed an issue where $syntax would carry a single space instead of $null
 - Fixed an issue where $param would still have a space at the end of its text, breaking some commands.
 - Fixed an issue where update-POSHTVCommand had two statements that did the same thing
 - Fixed an issue where different games could report the same IGT
-
-* Issues
