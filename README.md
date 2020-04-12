@@ -9,7 +9,7 @@ POSH.TV is a Windows PowerShell-based IRC client for Twitch.tv. This was created
 # Why PowerShell?
 Most Twitch.tv bots utilize one or several languages, including Java, Python, C++, Ruby, or so on; there was a Github project called [pwshbot](https://github.com/fourtf/pwshbot/) that was working on creating their own PowerShell Twitch.tv client, but hadn't been updated in several months. Using what they had as a base, it was converted into a newer soft-coded format for anyone to use! Additionally, it is a fun project!
 
-# FEATURES
+# Features
 - Initial setup script for new installations
 - PowerShell chat client
 - Chat logging to file (can be enabled or disabled)
@@ -17,7 +17,7 @@ Most Twitch.tv bots utilize one or several languages, including Java, Python, C+
 - Add or Remove chat bot moderators (separate from Twitch chat mods)
 - Integration with Speedrun.com API, allowing for PB and WR checks
 
-# TO DO
+# Upcoming Features
 - Dedicated PowerShell chat client GUI
 - Quotes system
 - Points system
